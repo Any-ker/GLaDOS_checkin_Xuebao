@@ -31,7 +31,7 @@ if __name__ == '__main__':
         if 'message' in checkin.text:
             mess = checkin.json()['message']
             print(email+'----结果--'+mess+'----剩余'+time+'天')  # 日志输出
-            sendContent += email+'----'+mess+'----剩余'+time+'天\n 잘자\n buonas noches\n buona notte\n Bonne nuit\n こんばんは\n Поздравление\n Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare.'
+            sendContent += email+'----'+mess+'----剩余'+time+'天\n 잘자 buonas noches buona notte Bonne nuit こんばんは Поздравление Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare.'
         else:
             requests.get('http://www.pushplus.plus/send?token=' + sckey + '&content='+email+'cookie已失效')
             print('cookie已失效')  # 日志输出
