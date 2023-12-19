@@ -37,7 +37,6 @@ if __name__ == '__main__':
             print('cookie已失效')  # 日志输出
      #--------------------------------------------------------------------------------------------------------#   
     if sckey != "":
-         requests.get('http://www.pushplus.plus/send?token=' + sckey + '&title='+'晚安雪宝~' + mess + '&content=' + sendContent + '잘자\n buonas noches\n buona notte\n Bonne nuit\n こんばんは\n Поздравление\n 
-                      Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare.')
+         requests.get('http://www.pushplus.plus/send?token=' + sckey + '&title='+'晚安雪宝~' + mess + '&content=' + sendContent + '잘자\n buonas noches\n buona notte\n Bonne nuit\n こんばんは\n Поздравление\n Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare.')
 
 
